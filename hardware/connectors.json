@@ -1,0 +1,43 @@
+{
+  "view": "Looking into the mating face, key at 12 o'clock",
+  "numbering": "Project reference numbers transcribed from the builder's drawings; not a claimed Julet numbering standard",
+  "battery_connector": {
+    "title": "Battery connector · bike-side plug",
+    "view": "Looking into the mating face of the plug that inserts into the battery",
+    "orientation": "Cable toward the bike at 6 o'clock",
+    "lower_left": "CAN L",
+    "lower_right": "CAN H",
+    "unmapped": "Other contacts are not assigned. X is retained from the source sketch; its meaning is unspecified."
+  },
+  "connectors": [
+    {
+      "id": "bike-5-pin",
+      "title": "Bike connector",
+      "count": 5,
+      "male_role": "Replacement TCU",
+      "female_role": "Bike harness",
+      "pins": [
+        {"number": 1, "signal": "Switched supply", "connection": "Approximately 12 V to buck IN+"},
+        {"number": 2, "signal": "Ground", "connection": "Common ground"},
+        {"number": 3, "signal": "CAN H", "connection": "Transceiver CAN H"},
+        {"number": 4, "signal": "CAN L", "connection": "Transceiver CAN L"},
+        {"number": 5, "signal": "Wake line", "connection": "Pack-level voltage; 10 kΩ + momentary switch to ground"}
+      ]
+    },
+    {
+      "id": "remote-6-pin",
+      "title": "Handlebar remote connector",
+      "count": 6,
+      "male_role": "Handlebar remote",
+      "female_role": "Replacement TCU",
+      "pins": [
+        {"number": 1, "signal": "Walk", "connection": "ESP GPIO16"},
+        {"number": 2, "signal": "Unused", "connection": "Leave disconnected and insulated"},
+        {"number": 3, "signal": "Specialized button", "connection": "ESP GPIO8"},
+        {"number": 4, "signal": "+ button", "connection": "ESP GPIO3"},
+        {"number": 5, "signal": "− button", "connection": "ESP GPIO4"},
+        {"number": 6, "signal": "Button common", "connection": "220 Ω to ESP ground"}
+      ]
+    }
+  ]
+}

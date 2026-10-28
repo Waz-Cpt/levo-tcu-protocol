@@ -1,0 +1,42 @@
+VERSION "SBC-D03 observations on one Levo; see docs/can-protocol.md; 2026-10-20"
+NS_ :
+BS_:
+BU_: TCU Unknown
+
+BO_ 513 Motion: 6 Unknown
+ SG_ WheelSpeed : 0|16@1+ (0.01,0) [0|655.35] "km/h" Unknown
+ SG_ LoadRaw : 16|16@1+ (1,0) [0|65535] "raw" Unknown
+ SG_ StatusRaw : 32|16@1+ (1,0) [0|65535] "raw" Unknown
+
+BO_ 514 Distance: 8 Unknown
+ SG_ Unknown0to3 : 0|32@1+ (1,0) [0|4294967295] "raw" Unknown
+ SG_ Odometer : 32|32@1+ (1,0) [0|4294967295] "m" Unknown
+
+BO_ 515 Rider: 8 Unknown
+ SG_ Cadence : 0|16@1+ (0.025,0) [0|1638.375] "rpm" Unknown
+ SG_ PowerProductRaw : 16|32@1+ (1,0) [0|4294967295] "raw" Unknown
+ SG_ Unknown6to7 : 48|16@1+ (1,0) [0|65535] "raw" Unknown
+
+BO_ 768 Command: 8 TCU
+ SG_ StateRaw : 0|8@1+ (1,0) [0|255] "raw" Unknown
+ SG_ WalkRaw : 8|8@1+ (1,0) [0|255] "raw" Unknown
+ SG_ StartupRaw : 16|8@1+ (1,0) [0|255] "raw" Unknown
+ SG_ ShutdownRaw : 24|8@1+ (1,0) [0|255] "raw" Unknown
+ SG_ Support : 32|8@1+ (1,0) [0|100] "%" Unknown
+ SG_ Unknown5 : 40|8@1+ (1,0) [0|255] "raw" Unknown
+ SG_ PeakAssist : 48|8@1+ (1,0) [0|100] "%" Unknown
+ SG_ Counter : 56|4@1+ (1,0) [0|15] "" Unknown
+ SG_ CheckNibble : 60|4@1+ (1,0) [0|15] "" Unknown
+
+BO_ 769 Companion: 3 TCU
+ SG_ TableByte : 0|8@1+ (1,0) [0|255] "raw" Unknown
+ SG_ Counter : 8|8@1+ (1,0) [0|15] "" Unknown
+ SG_ Unknown2 : 16|8@1+ (1,0) [0|255] "raw" Unknown
+
+CM_ SG_ 513 LoadRaw "Load-sensitive candidate. Nm scaling not confirmed.";
+CM_ SG_ 515 PowerProductRaw "Not integer watts. Conversion remains provisional.";
+CM_ BO_ 768 "TCU origin confirmed by isolation. Empirical encoding used by the replacement on one Levo. Not a complete compatibility specification.";
+CM_ BO_ 769 "Observed companion table indexed by Command counter. First-byte algorithm unknown.";
+CM_ SG_ 768 StateRaw "00 Off, 03 enabled in tested profiles; not an Eco/Trail/Turbo selector.";
+CM_ SG_ 768 CheckNibble "Empirical adjacent-nibble OR then XOR fold; see levo_protocol.c. Not a standard CRC.";
+VAL_ 768 WalkRaw 90 "Released" 165 "Active";

@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1160" viewBox="0 0 1500 1160" role="img" aria-labelledby="title desc">
+<title id="title">Levo TCU reference wiring schematic</title>
+<desc id="desc">Five-pin male bike connector, six-pin female remote connector, 12-to-5 volt buck, Waveshare ESP32-C6 display and a 3.3 volt CAN transceiver. Pin numbering follows the separate mating-face drawings. Named nets connect electrically; no wire colors are specified.</desc>
+<rect width="1500" height="1160" fill="white"/>
+<text font-family="sans-serif" x="50" y="48" font-size="34" font-weight="700" text-anchor="start" fill="#17232b">Levo TCU · reference wiring</text>
+<text font-family="sans-serif" x="50" y="82" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">Module-level schematic · no cable-color assumptions · use the keyed mating-face pinout drawings</text>
+<text font-family="sans-serif" x="50" y="110" font-size="18" font-weight="400" text-anchor="start" fill="#52616b">Matching net labels are connected. Dots mark junctions. U2A and U2B are the same ESP32 board.</text>
+<rect x="50" y="140" width="300" height="350" fill="#f7f9fb" stroke="#17232b" stroke-width="2"/>
+<text font-family="sans-serif" x="66" y="170" font-size="22" font-weight="700" text-anchor="start" fill="#17232b">J1 · BIKE</text>
+<text font-family="sans-serif" x="66" y="195" font-size="17" font-weight="400" text-anchor="start" fill="#52616b">5-pin MALE on replacement</text>
+<text font-family="sans-serif" x="68" y="222" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">1   Switched ~12 V</text>
+<polyline points="320,215 350,215" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="68" y="272" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">2   Ground</text>
+<polyline points="320,265 350,265" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="68" y="322" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">3   CAN H</text>
+<polyline points="320,315 350,315" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="68" y="372" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">4   CAN L</text>
+<polyline points="320,365 350,365" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="68" y="422" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">5   Wake / pack-level</text>
+<polyline points="320,415 350,415" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<rect x="520" y="140" width="260" height="180" fill="#f7f9fb" stroke="#17232b" stroke-width="2"/>
+<text font-family="sans-serif" x="536" y="170" font-size="22" font-weight="700" text-anchor="start" fill="#17232b">U1 · BUCK</text>
+<text font-family="sans-serif" x="536" y="195" font-size="17" font-weight="400" text-anchor="start" fill="#52616b">Common-ground 12 V → 5 V</text>
+<text font-family="sans-serif" x="535" y="221" font-size="18" font-weight="400" text-anchor="start" fill="#17232b">IN+</text>
+<text font-family="sans-serif" x="535" y="271" font-size="18" font-weight="400" text-anchor="start" fill="#17232b">IN−</text>
+<text font-family="sans-serif" x="765" y="221" font-size="18" font-weight="400" text-anchor="end" fill="#17232b">OUT+</text>
+<text font-family="sans-serif" x="765" y="271" font-size="18" font-weight="400" text-anchor="end" fill="#17232b">OUT−</text>
+<polyline points="350,215 520,215" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="390" y="206" font-size="18" font-weight="700" text-anchor="start" fill="#17232b">+12_SW</text>
+<polyline points="350,265 400,265" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="400,265 400,277" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="388,277 412,277" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="392,283 408,283" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="397,289 403,289" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="520,265 490,265" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="490,265 490,277" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="478,277 502,277" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="482,283 498,283" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="487,289 493,289" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="780,265 810,265" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="810,265 810,277" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="798,277 822,277" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="802,283 818,283" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="807,289 813,289" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<rect x="1050" y="140" width="400" height="550" fill="#f7f9fb" stroke="#17232b" stroke-width="2"/>
+<text font-family="sans-serif" x="1066" y="170" font-size="22" font-weight="700" text-anchor="start" fill="#17232b">U2A · ESP32 + DISPLAY</text>
+<text font-family="sans-serif" x="1066" y="195" font-size="17" font-weight="400" text-anchor="start" fill="#52616b">Waveshare ESP32-C6-Touch-LCD-1.47</text>
+<text font-family="sans-serif" x="1070" y="221" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">5V / VBUS</text>
+<text font-family="sans-serif" x="1070" y="271" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">GND</text>
+<text font-family="sans-serif" x="1070" y="371" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">3V3 output</text>
+<text font-family="sans-serif" x="1070" y="471" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">GPIO17 → CAN transmit</text>
+<text font-family="sans-serif" x="1070" y="531" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">GPIO7 ← CAN receive</text>
+<text font-family="sans-serif" x="1070" y="600" font-size="18" font-weight="400" text-anchor="start" fill="#17232b">172 × 320 screen and touch</text>
+<text font-family="sans-serif" x="1070" y="630" font-size="18" font-weight="400" text-anchor="start" fill="#17232b">are already on this board.</text>
+<text font-family="sans-serif" x="1070" y="660" font-size="18" font-weight="700" text-anchor="start" fill="#17232b">Leave the microSD slot empty.</text>
+<polyline points="780,215 880,215" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<rect x="880" y="205" width="52" height="20" fill="white" stroke="#17232b" stroke-width="2"/>
+<polyline points="888,215 924,215" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="932,215 1050,215" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="915" y="171" font-size="18" font-weight="700" text-anchor="middle" fill="#17232b">JP1 · removable 5 V link</text>
+<text font-family="sans-serif" x="915" y="193" font-size="17" font-weight="400" text-anchor="middle" fill="#17232b">Open before USB power</text>
+<polyline points="1050,265 1015,265" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="1015,265 1015,277" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="1003,277 1027,277" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="1007,283 1023,283" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="1012,289 1018,289" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="1050,365 1000,365" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="1030" y="346" font-size="18" font-weight="700" text-anchor="end" fill="#17232b">+3V3</text>
+<polyline points="350,315 450,315 450,465 520,465" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="350,365 420,365 420,525 520,525" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="350,415 390,415" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="360" y="429" font-size="18" font-weight="700" text-anchor="start" fill="#17232b">WAKE</text>
+<rect x="520" y="400" width="280" height="240" fill="#f7f9fb" stroke="#17232b" stroke-width="2"/>
+<text font-family="sans-serif" x="536" y="430" font-size="22" font-weight="700" text-anchor="start" fill="#17232b">U3 · CAN MODULE</text>
+<text font-family="sans-serif" x="536" y="455" font-size="17" font-weight="400" text-anchor="start" fill="#52616b"></text>
+<text font-family="sans-serif" x="535" y="447" font-size="17" font-weight="400" text-anchor="start" fill="#17232b">3.3 V supply AND logic</text>
+<text font-family="sans-serif" x="535" y="471" font-size="19" font-weight="400" text-anchor="start" fill="#17232b">CAN H</text>
+<text font-family="sans-serif" x="535" y="531" font-size="19" font-weight="400" text-anchor="start" fill="#17232b">CAN L</text>
+<text font-family="sans-serif" x="785" y="471" font-size="19" font-weight="400" text-anchor="end" fill="#17232b">CTX / TXD</text>
+<text font-family="sans-serif" x="785" y="531" font-size="19" font-weight="400" text-anchor="end" fill="#17232b">CRX / RXD</text>
+<text font-family="sans-serif" x="680" y="390" font-size="17" font-weight="400" text-anchor="start" fill="#17232b">VCC</text>
+<polyline points="660,400 660,370" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="660" y="361" font-size="18" font-weight="700" text-anchor="middle" fill="#17232b">+3V3</text>
+<text font-family="sans-serif" x="660" y="625" font-size="17" font-weight="400" text-anchor="middle" fill="#17232b">GND</text>
+<polyline points="660,640 660,655" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="660,655 660,667" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="648,667 672,667" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="652,673 668,673" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="657,679 663,679" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="800,465 1050,465" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="800,525 1050,525" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="1000" y="456" font-size="18" font-weight="700" text-anchor="end" fill="#17232b">CAN_TX</text>
+<text font-family="sans-serif" x="1000" y="516" font-size="18" font-weight="700" text-anchor="end" fill="#17232b">CAN_RX</text>
+<polyline points="900,465 900,425" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<rect x="892" y="375" width="16" height="50" fill="white" stroke="#17232b" stroke-width="2"/>
+<polyline points="900,375 900,350" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="900" y="341" font-size="18" font-weight="700" text-anchor="middle" fill="#17232b">+3V3</text>
+<circle cx="900" cy="465" r="4.5" fill="#17232b"/>
+<text font-family="sans-serif" x="920" y="390" font-size="18" font-weight="700" text-anchor="start" fill="#17232b">R3</text>
+<text font-family="sans-serif" x="920" y="415" font-size="18" font-weight="400" text-anchor="start" fill="#17232b">10 kΩ</text>
+<polyline points="480,465 480,480" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<rect x="472" y="480" width="16" height="30" fill="white" stroke="#17232b" stroke-width="2"/>
+<polyline points="480,510 480,525" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<circle cx="480" cy="465" r="4.5" fill="#17232b"/>
+<circle cx="480" cy="525" r="4.5" fill="#17232b"/>
+<text font-family="sans-serif" x="340" y="562" font-size="19" font-weight="700" text-anchor="start" fill="#17232b">R1 · 120 Ω*</text>
+<text font-family="sans-serif" x="60" y="616" font-size="18" font-weight="700" text-anchor="start" fill="#17232b">WAKE</text>
+<polyline points="60,625 130,625" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<rect x="130" y="617" width="60" height="16" fill="white" stroke="#17232b" stroke-width="2"/>
+<polyline points="190,625 235,625" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<circle cx="235" cy="625" r="4.5" fill="#17232b"/>
+<circle cx="295" cy="625" r="4.5" fill="#17232b"/>
+<polyline points="235,625 285,601" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="295,625 325,625" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="325,625 325,637" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="313,637 337,637" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="317,643 333,643" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="322,649 328,649" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="160" y="590" font-size="18" font-weight="700" text-anchor="middle" fill="#17232b">R2 · 10 kΩ / 0.5 W</text>
+<text font-family="sans-serif" x="235" y="675" font-size="17" font-weight="400" text-anchor="middle" fill="#17232b">SW1 · momentary, normally open</text>
+<text font-family="sans-serif" x="50" y="714" font-size="20" font-weight="700" text-anchor="start" fill="#17232b">Wake circuit only. Never connect WAKE or +12_SW to an ESP GPIO.</text>
+<text font-family="sans-serif" x="50" y="747" font-size="18" font-weight="400" text-anchor="start" fill="#17232b">* R1: fit one 120 Ω terminator here only if U3 has none. All ground symbols share bike ground.</text>
+<polyline points="50,770 1450,770" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<rect x="50" y="790" width="330" height="270" fill="#f7f9fb" stroke="#17232b" stroke-width="2"/>
+<text font-family="sans-serif" x="66" y="820" font-size="22" font-weight="700" text-anchor="start" fill="#17232b">J2 · HANDLEBAR REMOTE</text>
+<text font-family="sans-serif" x="66" y="845" font-size="17" font-weight="400" text-anchor="start" fill="#52616b">6-pin FEMALE on replacement</text>
+<rect x="1050" y="790" width="400" height="270" fill="#f7f9fb" stroke="#17232b" stroke-width="2"/>
+<text font-family="sans-serif" x="1066" y="820" font-size="22" font-weight="700" text-anchor="start" fill="#17232b">U2B · REMOTE INPUTS</text>
+<text font-family="sans-serif" x="1066" y="845" font-size="17" font-weight="400" text-anchor="start" fill="#52616b">Same board as U2A above</text>
+<text font-family="sans-serif" x="68" y="872" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">1   Walk</text>
+<polyline points="350,865 1050,865" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="1070" y="872" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">GPIO16</text>
+<text font-family="sans-serif" x="68" y="942" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">3   Specialized</text>
+<polyline points="350,935 1050,935" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="1070" y="942" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">GPIO8</text>
+<text font-family="sans-serif" x="68" y="982" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">4   Plus</text>
+<polyline points="350,975 1050,975" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="1070" y="982" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">GPIO3</text>
+<text font-family="sans-serif" x="68" y="1022" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">5   Minus</text>
+<polyline points="350,1015 1050,1015" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="1070" y="1022" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">GPIO4</text>
+<text font-family="sans-serif" x="68" y="900" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">2   Unused</text>
+<polyline points="350,895 420,895" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="414,889 426,901" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="414,901 426,889" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="450" y="901" font-size="18" font-weight="400" text-anchor="start" fill="#17232b">Insulate this conductor; no connection</text>
+<text font-family="sans-serif" x="68" y="1052" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">6   Button common</text>
+<polyline points="350,1045 520,1045" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<rect x="520" y="1037" width="60" height="16" fill="white" stroke="#17232b" stroke-width="2"/>
+<polyline points="580,1045 630,1045" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="630,1045 630,1057" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="618,1057 642,1057" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="622,1063 638,1063" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<polyline points="627,1069 633,1069" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="730" y="1052" font-size="18" font-weight="700" text-anchor="start" fill="#17232b">R4 · 220 Ω</text>
+<text font-family="sans-serif" x="1070" y="1045" font-size="17" font-weight="400" text-anchor="start" fill="#17232b">Internal pull-ups enabled in firmware</text>
+<text font-family="sans-serif" x="50" y="1110" font-size="18" font-weight="400" text-anchor="start" fill="#17232b">R1, R3, R4: 0.25 W or greater. R2: 0.5 W. 1% resistors make sensible new-build defaults.</text>
+<text font-family="sans-serif" x="50" y="1138" font-size="18" font-weight="400" text-anchor="start" fill="#52616b">Reference wiring for the tested harness. Verify connector family, keying and continuity on your own pigtails.</text>
+</svg>

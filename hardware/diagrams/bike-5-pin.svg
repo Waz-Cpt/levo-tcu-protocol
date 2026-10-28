@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Bike connector: both mating faces</title>
+<desc id="desc">Looking into the keyed mating faces, with the key at 12 o’clock. Male pins and female sockets are mirror images. The table identifies each numbered contact.</desc>
+<rect width="1200" height="900" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#17232b">
+<text font-family="sans-serif" x="40" y="54" font-size="34" font-weight="700" text-anchor="start" fill="#17232b">Bike connector · 5-pin Julet</text>
+<text font-family="sans-serif" x="40" y="89" font-size="21" font-weight="400" text-anchor="start" fill="#52616b">Looking into the mating face, key at 12 o&#x27;clock</text>
+<rect x="40" y="116" width="520" height="348" rx="14" fill="#f5f8fa" stroke="#d8e1e7"/>
+<text font-family="sans-serif" x="300" y="154" font-size="25" font-weight="700" text-anchor="middle" fill="#17232b">Replacement TCU</text>
+<text font-family="sans-serif" x="300" y="184" font-size="17" font-weight="700" text-anchor="middle" fill="#52616b">MALE · PINS</text>
+<circle cx="300" cy="323" r="112" fill="#ffffff" stroke="#17232b" stroke-width="3"/>
+<path d="M 279 211 L 279 228 Q 300 255 321 228 L 321 211" fill="#f5f8fa" stroke="#17232b" stroke-width="3"/>
+<circle cx="365" cy="268" r="20" fill="#17232b" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="365" y="276" font-size="23" font-weight="700" text-anchor="middle" fill="#ffffff">1</text>
+<circle cx="235" cy="268" r="20" fill="#17232b" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="235" y="276" font-size="23" font-weight="700" text-anchor="middle" fill="#ffffff">2</text>
+<circle cx="235" cy="363" r="20" fill="#17232b" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="235" y="371" font-size="23" font-weight="700" text-anchor="middle" fill="#ffffff">3</text>
+<circle cx="300" cy="408" r="20" fill="#17232b" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="300" y="416" font-size="23" font-weight="700" text-anchor="middle" fill="#ffffff">4</text>
+<circle cx="365" cy="363" r="20" fill="#17232b" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="365" y="371" font-size="23" font-weight="700" text-anchor="middle" fill="#ffffff">5</text>
+<rect x="640" y="116" width="520" height="348" rx="14" fill="#f5f8fa" stroke="#d8e1e7"/>
+<text font-family="sans-serif" x="900" y="154" font-size="25" font-weight="700" text-anchor="middle" fill="#17232b">Bike harness</text>
+<text font-family="sans-serif" x="900" y="184" font-size="17" font-weight="700" text-anchor="middle" fill="#52616b">FEMALE · SOCKETS</text>
+<circle cx="900" cy="323" r="112" fill="#ffffff" stroke="#17232b" stroke-width="3"/>
+<circle cx="900" cy="323" r="124" fill="none" stroke="#8b9ba7" stroke-width="2"/>
+<path d="M 879 211 L 879 228 Q 900 255 921 228 L 921 211" fill="#f5f8fa" stroke="#17232b" stroke-width="3"/>
+<circle cx="835" cy="268" r="20" fill="#ffffff" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="835" y="276" font-size="23" font-weight="700" text-anchor="middle" fill="#17232b">1</text>
+<circle cx="965" cy="268" r="20" fill="#ffffff" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="965" y="276" font-size="23" font-weight="700" text-anchor="middle" fill="#17232b">2</text>
+<circle cx="965" cy="363" r="20" fill="#ffffff" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="965" y="371" font-size="23" font-weight="700" text-anchor="middle" fill="#17232b">3</text>
+<circle cx="900" cy="408" r="20" fill="#ffffff" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="900" y="416" font-size="23" font-weight="700" text-anchor="middle" fill="#17232b">4</text>
+<circle cx="835" cy="363" r="20" fill="#ffffff" stroke="#17232b" stroke-width="2.5"/>
+<text font-family="sans-serif" x="835" y="371" font-size="23" font-weight="700" text-anchor="middle" fill="#17232b">5</text>
+<text font-family="sans-serif" x="40" y="505" font-size="18" font-weight="700" text-anchor="start" fill="#52616b">Pin</text>
+<text font-family="sans-serif" x="122" y="505" font-size="18" font-weight="700" text-anchor="start" fill="#52616b">Signal</text>
+<text font-family="sans-serif" x="430" y="505" font-size="18" font-weight="700" text-anchor="start" fill="#52616b">Connection in reference build</text>
+<path d="M40 519 H1160" stroke="#17232b" stroke-width="2"/>
+<text font-family="sans-serif" x="52" y="552" font-size="22" font-weight="700" text-anchor="start" fill="#17232b">1</text>
+<text font-family="sans-serif" x="122" y="552" font-size="22" font-weight="400" text-anchor="start" fill="#17232b">Switched supply</text>
+<text font-family="sans-serif" x="430" y="552" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">Approximately 12 V to buck IN+</text>
+<path d="M40 564 H1160" stroke="#e0e7ec"/>
+<text font-family="sans-serif" x="52" y="594" font-size="22" font-weight="700" text-anchor="start" fill="#17232b">2</text>
+<text font-family="sans-serif" x="122" y="594" font-size="22" font-weight="400" text-anchor="start" fill="#17232b">Ground</text>
+<text font-family="sans-serif" x="430" y="594" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">Common ground</text>
+<path d="M40 606 H1160" stroke="#e0e7ec"/>
+<text font-family="sans-serif" x="52" y="636" font-size="22" font-weight="700" text-anchor="start" fill="#17232b">3</text>
+<text font-family="sans-serif" x="122" y="636" font-size="22" font-weight="400" text-anchor="start" fill="#17232b">CAN H</text>
+<text font-family="sans-serif" x="430" y="636" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">Transceiver CAN H</text>
+<path d="M40 648 H1160" stroke="#e0e7ec"/>
+<text font-family="sans-serif" x="52" y="678" font-size="22" font-weight="700" text-anchor="start" fill="#17232b">4</text>
+<text font-family="sans-serif" x="122" y="678" font-size="22" font-weight="400" text-anchor="start" fill="#17232b">CAN L</text>
+<text font-family="sans-serif" x="430" y="678" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">Transceiver CAN L</text>
+<path d="M40 690 H1160" stroke="#e0e7ec"/>
+<text font-family="sans-serif" x="52" y="720" font-size="22" font-weight="700" text-anchor="start" fill="#17232b">5</text>
+<text font-family="sans-serif" x="122" y="720" font-size="22" font-weight="400" text-anchor="start" fill="#17232b">Wake line</text>
+<text font-family="sans-serif" x="430" y="720" font-size="20" font-weight="400" text-anchor="start" fill="#17232b">Pack-level voltage; 10 kΩ + momentary switch to ground</text>
+<path d="M40 732 H1160" stroke="#e0e7ec"/>
+<text font-family="sans-serif" x="40" y="834" font-size="19" font-weight="700" text-anchor="start" fill="#17232b">Face view, not wire-entry view. Match the key before identifying contacts.</text>
+<text font-family="sans-serif" x="40" y="865" font-size="18" font-weight="400" text-anchor="start" fill="#52616b">Project reference numbering. Cable colors vary. Diagram is not to scale.</text>
+</g></svg>

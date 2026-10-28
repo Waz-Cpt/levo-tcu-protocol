@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Battery connector · bike-side plug</title>
+<desc id="desc">Bike-side plug viewed into its mating face, cable downward. The lower-left contact is CAN L; the lower-right is CAN H. The remaining contacts have no assigned function in this drawing.</desc>
+<rect width="1200" height="900" fill="#ffffff"/>
+<text font-family="sans-serif" x="40" y="54" font-size="34" font-weight="700" text-anchor="start" fill="#17232b">Battery connector · bike-side plug</text>
+<text font-family="sans-serif" x="40" y="89" font-size="21" font-weight="400" text-anchor="start" fill="#52616b">Looking into the mating face of the plug that inserts into the battery</text>
+<rect x="40" y="116" width="1120" height="562" rx="14" fill="#f5f8fa" stroke="#d8e1e7"/>
+<text font-family="sans-serif" x="600" y="157" font-size="23" font-weight="700" text-anchor="middle" fill="#17232b">Cable toward the bike at 6 o&#x27;clock</text>
+<path d="M570 519 V608 H630 V519" fill="#ffffff" stroke="#8b9ba7" stroke-width="3"/>
+<circle cx="600" cy="360" r="164" fill="#ffffff" stroke="#8b9ba7" stroke-width="3"/>
+<circle cx="600" cy="360" r="144" fill="#ffffff" stroke="#17232b" stroke-width="3"/>
+<circle cx="550" cy="360" r="27" fill="#f5f8fa" stroke="#8b9ba7" stroke-width="3"/>
+<circle cx="650" cy="360" r="27" fill="#f5f8fa" stroke="#8b9ba7" stroke-width="3"/>
+<circle cx="550" cy="280" r="10" fill="#8b9ba7"/>
+<path d="M640 270 L660 290 M660 270 L640 290" stroke="#8b9ba7" stroke-width="3"/>
+<circle cx="550" cy="440" r="12" fill="#17232b"/>
+<circle cx="650" cy="440" r="12" fill="#17232b"/>
+<path d="M550 440 L480 480 H350 M650 440 L720 480 H850" fill="none" stroke="#17232b" stroke-width="2.5"/>
+<path d="M600 546 V585 M592 575 L600 585 L608 575" fill="none" stroke="#52616b" stroke-width="2"/>
+<text font-family="sans-serif" x="340" y="472" font-size="29" font-weight="700" text-anchor="end" fill="#17232b">CAN L</text>
+<text font-family="sans-serif" x="340" y="509" font-size="20" font-weight="400" text-anchor="end" fill="#52616b">Lower left</text>
+<text font-family="sans-serif" x="860" y="472" font-size="29" font-weight="700" text-anchor="start" fill="#17232b">CAN H</text>
+<text font-family="sans-serif" x="860" y="509" font-size="20" font-weight="400" text-anchor="start" fill="#52616b">Lower right</text>
+<text font-family="sans-serif" x="600" y="644" font-size="21" font-weight="400" text-anchor="middle" fill="#52616b">Cable to bike</text>
+<text font-family="sans-serif" x="40" y="728" font-size="23" font-weight="700" text-anchor="start" fill="#17232b">The battery receptacle is not shown. Its mating face is mirrored horizontally.</text>
+<text font-family="sans-serif" x="40" y="768" font-size="21" font-weight="400" text-anchor="start" fill="#52616b">Other contacts are not assigned. X is retained from the source sketch;</text>
+<text font-family="sans-serif" x="40" y="797" font-size="21" font-weight="400" text-anchor="start" fill="#52616b">its meaning is unspecified. No contact numbers or power polarity are inferred.</text>
+<text font-family="sans-serif" x="40" y="865" font-size="18" font-weight="400" text-anchor="start" fill="#52616b">Reference geometry only. Diagram is not to scale.</text>
+</svg>

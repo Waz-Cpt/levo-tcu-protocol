@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+set(PROJECT_VER "levo-tcu-0.4.0-reference")
+set(EXTRA_COMPONENT_DIRS "../components")
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(levo_tcu_standalone)
